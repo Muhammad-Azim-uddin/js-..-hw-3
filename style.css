@@ -1,0 +1,26 @@
+.main-box {
+    width: 100%;
+    height: 100vh;
+    background-color: #f0f0f0d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.passField{
+    position: relative;
+}
+.passField input{
+    width: 450px;
+    height: 50px;
+    padding: 5px 20px;
+    border-radius: 25px;
+}
+
+.passField button{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+}
